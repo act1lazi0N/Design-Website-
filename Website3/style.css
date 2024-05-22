@@ -1,0 +1,39 @@
+html {
+  background-color: #d8d8d8;
+}
+
+.container {
+  width: 1200px;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+}
+
+.item {
+  
+}
+p {
+  color: red;
+  font-style: italic;
+}
+p .subject-fill {
+  font-style: normal;
+  font-weight: bold;
+  color: green;
+  padding: 0 0 0 50px;
+}
+
+table .table-header {
+  background-color: rgb(13, 228, 13);
+}
+table tr .number {
+  width: 100px;
+}
+table tr .name {
+  width: 300px;
+}
+table tr .born {
+  width: 200px;
+}/*# sourceMappingURL=style.css.map */

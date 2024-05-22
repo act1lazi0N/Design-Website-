@@ -1,0 +1,32 @@
+.main-detail {
+  font-weight: 500;
+}
+.main-detail .year-fill {
+  margin-right: 3px;
+  text-align: right;
+}
+.main-detail .year {
+  color: #dc3545;
+}
+.main-detail .flex-fillname {
+  margin-right: 3px;
+  text-align: right;
+}
+.main-detail .flex-name {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+  color: #dc3545;
+}
+.main-detail .number-fill {
+  margin-right: 3px;
+}
+.main-detail .number {
+  color: #dc3545;
+}
+.main-detail .info-1 {
+  padding-right: 3rem;
+}
+
+.main {
+  margin-left: 30%;
+}/*# sourceMappingURL=style.css.map */

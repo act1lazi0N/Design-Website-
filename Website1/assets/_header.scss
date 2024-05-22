@@ -1,0 +1,21 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+  }
+.bi {
+    margin-bottom: 5px;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("./img/og-standings.webp");
+
+  min-height: 80px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}

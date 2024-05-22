@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baitapC2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-md-6 col-12 mx-auto">
+                <div class="mt-3"></div>
+                <div class="col">
+                </div>
+                <div class="col-12 fs-1 text-center">
+                    THÔNG TIN SINH VIÊN
+                </div>
+                <hr>
+                <div class="col">
+
+                </div>
+                <div class="row">
+                    <div class="col-12 mb-2">
+                        <label for="validationDefault01" class="form-label">Họ và tên</label>
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="Nguyễn Văn A"
+                            required>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <label for="validationDefault01" class="form-label">Ngày sinh</label>
+                        <input type="date" class="form-control" id="validationDefault01" value="Mark" required>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <label for="validationDefault01" class="form-label">Giới tính</label>
+                        <br>
+                        <div class="d-flex">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1">
+                                <label class="form-check-label" for="exampleRadios1">
+                                    Nam
+                                </label>
+                            </div>
+                            <div class="form-check ms-sm-2">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                    value="option2">
+                                <label class="form-check-label" for="exampleRadios2">
+                                    Nữ
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <label for="validationDefault01" class="form-label">Lớp</label>
+                        <select class="form-select" required aria-label="select example">
+                            <!-- <option value="" disabled="true">CÔNG NGHỆ THÔNG TIN</option>  -->
+                            <optgroup label="CÔNG NGHỆ THÔNG TIN">
+                                <option value="1">CNTT K1A</option>
+                                <option value="2">CNTT K1B</option>
+                                <option value="3">CNTT K1C</option>
+                            </optgroup>
+                            <!-- <option value="" disabled="true">KHOA HỌC MÁY TÍNH</option> -->
+                            <optgroup label="KHOA HỌC MÁY TÍNH">
+                                <option value="1">KHMT K8</option>
+                                <option value="2">KHMT K9</option>
+                            </optgroup>
+                            <!-- <option value="" disabled="true">THIẾT KẾ ĐỒ HỌA</option> -->
+                            <optgroup label="THIẾT KẾ ĐỒ HỌA">
+                                <option value="1">TKDH K2A</option>
+                                <option value="2">TKDH K2B</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <label for="validationDefault01" class="form-label">Trúng tuyển</label>
+                        <div class="d-flex">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    THPT Quốc gia
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input ms-sm-2" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label ms-sm-2" for="flexCheckDefault">
+                                    Học bạ
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <div class="mb-3">
+                            <label for="formFileMultiple" class="form-label">Ảnh</label>
+                            <input class="form-control" type="file" id="formFileMultiple" multiple>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <div class="row">
+                            <div class="col-md-9"></div>
+                            <div class="col-md-3">
+                                <button class="btn btn-primary float-end" type="submit">Xác nhận</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

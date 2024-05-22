@@ -1,0 +1,9 @@
+.box-1 {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
